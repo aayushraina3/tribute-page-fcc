@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* display: flex;
+    flex-flow: row wrap; */
+    height: 100%;
+}
+
+.header-child{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    font-size: 72px;
+}
+
+.header-img{
+    position: absolute;
+    height: 100%;
+}
+
+.body-wrapper{
+    width: 100%;
+    padding: 2vw 20vmin;
+}
