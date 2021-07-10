@@ -107,6 +107,22 @@ html, body{
 
 /* MEDIA QUERIES */
 @media screen and (max-width:1132px) {
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header-child{
+        height: 50vh;
+    }
+
+    .header-img{
+        width: 100%;
+        height: 100%;
+        object-fit: none;
+        object-position: 66% 10%;
+    }
+
     .section{
         height: 200vh;
         width: 90%;
@@ -125,6 +141,7 @@ html, body{
     .final-section-child{
         display: flex;
         flex-wrap: wrap;
+        align-content: center;
     }
 
     .final-section-image{
